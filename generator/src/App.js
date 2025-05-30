@@ -1,4 +1,4 @@
-import MemeTemplate from "./memeList";
+import MemeTemplate from "./components/MemeList";
 
 
 function App() {
