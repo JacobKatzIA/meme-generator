@@ -32,7 +32,7 @@ function MemeCreator({ templateId, boxCount }) {
         // Förhindrar så att sidan inte laddas om (vilket är ett default-beteende i formulär)
         e.preventDefault();
 
-        // Anropar funktionen för att skapa en meme (detta sker via filen imgAPI)
+        // Anropar funktionen för att skapa en meme (detta sker via filen imgAPI där funktionen CreateMeme finns)
         CreateMeme(templateId, texts, () => {
 
             // Tömmer alla textfält så att dem blir tomma
