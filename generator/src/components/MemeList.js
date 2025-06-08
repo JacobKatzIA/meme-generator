@@ -1,7 +1,9 @@
 // Importetar Axios för HTTP-anrop
 import axios from "axios";
+
 // Importerar två React hooks: useEffect och useState
 import { useEffect, useState } from "react";
+
 // Importerar komponenter
 import MemeCreator from "./MemeCreator"
 import RandomMeme from "./ReditMeme";
