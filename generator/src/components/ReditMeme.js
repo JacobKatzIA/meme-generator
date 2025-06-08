@@ -17,7 +17,7 @@ const fetchRandomMeme = () => {
     });
 };
 
-// Funktion som tillåter användaren att spara memen med localStorage
+// Funktion som tillåter användaren att spara memen till localStorage
 const saveMeme = () => {
     // Kontrollerar om en meme är hämtad och har en korrekt URL
     if (meme && meme.url) {
@@ -29,7 +29,7 @@ const saveMeme = () => {
     }
 };
 
-
+// Returnerar JSX, som renderas i webbläsaren 
 return (
     <div className="my-4">
         <h4>Behöver du insperation? Inga problem!</h4>
