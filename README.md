@@ -38,12 +38,13 @@ OBS hoppa över detta steg om du redan har Node.js installerat!
   - Skriv sedan "npm -v", funkar på både mac och Windows.
 
 Kör programmet:
-  - Klona detta Github repo till Github desktop
-  - Öppna projektet i valfri text-editor, exempelvis Visual Studio Code
+  - Klona detta Github repo till Github desktop.
+  - Öppna projektet i valfri text-editor, exempelvis Visual Studio Code.
   - Öppna ett nytt terminalfönster, antingen i Visual Studio Code (rekomenderas) eller operativsystemet.
-  - Navigera till mappen "generator" på din dator med terminal-kommandot "cd" (viktigt att du navigerar rätt här för att programmet ska fungera)
-  - När du ser att det står att du är i "generator" i terminalen skriv "npm start" för att starta programmet
-  - Sidan/meme-generatorn öppnas automatiskt i din webbläsare, alternativt att du får klistra in "localhost:3000" som står i terminalfönstret i webbläsaren
+  - Navigera till mappen "generator" på din dator med terminal-kommandot "cd" (viktigt att du navigerar rätt här för att programmet ska fungera).
+  - När du är i mappen "generator" i terminalen måste du installera npm. Detta gör du genom att skriva in "npm install" i terminalen.
+  - Nu kan du köra kommandot "npm start" för att starta programmet.
+  - Sidan/meme-generatorn öppnas automatiskt i din webbläsare, alternativt att du får klistra in "localhost:3000" som står i terminalfönstret i webbläsaren.
 
 -------------------------
 
