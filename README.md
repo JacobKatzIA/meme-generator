@@ -40,6 +40,8 @@ OBS hoppa över detta steg om du redan har Node.js installerat!
 Kör programmet:
   - Klona detta Github repo till Github desktop.
   - Öppna projektet i valfri text-editor, exempelvis Visual Studio Code.
+  - För att köra programmet behöver du få tillgång till nycklarna till imgflip-API:et. Kontakta någon av skaparna till sidan för att få tillgång till nycklarna.
+  - När du har tillgång till nycklarna så lägger du till en .env-fil som du lägger globalt i mappen "generator". Här kan du lägga till nycklarna och döpa de till följande: REACT_APP_MEME_USERNAME=******* & i raden nedan: REACT_APP_MEME_PASSWORD=******. (Byt ut stjärnorna till angiven nyckel).
   - Öppna ett nytt terminalfönster, antingen i Visual Studio Code (rekomenderas) eller operativsystemet.
   - Navigera till mappen "generator" på din dator med terminal-kommandot "cd" (viktigt att du navigerar rätt här för att programmet ska fungera).
   - När du är i mappen "generator" i terminalen måste du installera npm. Detta gör du genom att skriva in "npm install" i terminalen.
